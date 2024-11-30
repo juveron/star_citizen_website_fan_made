@@ -3,6 +3,7 @@ import { ManufacturerListComponent } from './manufacturer-list/manufacturer-list
 import { ManufacturerDetailComponent } from './manufacturer-detail/manufacturer-detail.component';
 
 export const manufacturersRoutes: Routes = [
-  { path: '', component: ManufacturerListComponent },
-  { path: ':id', component: ManufacturerDetailComponent }
-];
+    { path: '', component: ManufacturerListComponent },
+    { path: ':id/:name', component: ManufacturerDetailComponent }
+  ];
+  

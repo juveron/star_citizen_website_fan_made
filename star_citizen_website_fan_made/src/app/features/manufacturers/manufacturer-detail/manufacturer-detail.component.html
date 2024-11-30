@@ -1,1 +1,38 @@
-<p>manufacturer-detail works!</p>
+<section class="manufacturer-detail">
+  <div class="content-wrapper">
+    <div class="manufacturer-description">
+      <h1>{{ manufacturer.name }}</h1>
+      <p>{{ manufacturer.description }}</p>
+    </div>
+
+    <div class="manufacturer-info">
+      <div class="info-container">
+        <img [src]="manufacturer.logo_url" [alt]="manufacturer.name" class="manufacturer-logo">
+        <div class="info-table">
+          <h2>{{ manufacturer.name }}</h2>
+          <div class="info-row">
+            <p class="info-key">Industry:</p>
+            <p class="info-value">{{ manufacturer.industry }}</p>
+          </div>
+          <div class="info-row">
+            <p class="info-key">Founded:</p>
+            <p class="info-value">{{ manufacturer.founded }}</p>
+          </div>
+          <div class="info-row">
+            <p class="info-key">Headquarters:</p>
+            <p class="info-value">{{ manufacturer.headquarters }}</p>
+          </div>
+          <div class="info-row">
+            <p class="info-key">Products:</p>
+            <p class="info-value">{{ manufacturer.products }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <section *ngIf="!isDataLoaded" class="loading">
+    <p>Loading manufacturer details...</p>
+  </section>

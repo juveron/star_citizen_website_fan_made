@@ -1,1 +1,16 @@
-<p>manufacturer-list works!</p>
+<section class="manufacturer-list">
+    <h2>Manufacturers</h2>
+    <div class="grid-container">
+      <div *ngFor="let manufacturer of manufacturers" class="manufacturer-card">
+        <a [routerLink]="[manufacturer.id,manufacturer.name]" class="manufacturer-card-link">
+        <div class="image-container">
+            <img [src]="manufacturer.logo_url" [alt]="manufacturer.name" class="manufacturer-logo">
+        </div>
+        <div class="card-content">
+            <h3>{{ manufacturer.name }}</h3>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  

@@ -1,0 +1,201 @@
+{
+    "ships": [
+        {
+            "id": 1,
+            "name": "Cutlass Black",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Medium Fighter",
+            "cargo_capacity": 46,
+            "crew": 3,
+            "speed": 250,
+            "description": "A versatile ship designed for combat, cargo, and general utility.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+          },
+          {
+            "id": 2,
+            "name": "Caterpillar",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Heavy Cargo",
+            "cargo_capacity": 576,
+            "crew": 5,
+            "speed": 210,
+            "description": "A modular cargo ship designed for heavy freight transport.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+          },
+          {
+            "id": 3,
+            "name": "Buccaneer",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Light Fighter",
+            "cargo_capacity": 0,
+            "crew": 1,
+            "speed": 260,
+            "description": "A nimble, powerful fighter for agile combat engagements.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+          },
+          {
+            "id": 4,
+            "name": "Herald",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Data Runner",
+            "cargo_capacity": 0,
+            "crew": 1,
+            "speed": 270,
+            "description": "A ship designed for high-speed transport of sensitive data.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+          },
+          {
+            "id": 5,
+            "name": "Vulture",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Light Salvage",
+            "cargo_capacity": 12,
+            "crew": 1,
+            "speed": 240,
+            "description": "A compact ship built for personal salvaging operations.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+          }
+    ],
+    "manufacturers": [
+      {
+        "id": 1,
+        "name": "Aegis Dynamics",
+        "description": "Aegis Dynamics is a spacecraft manufacturer based on Cestulus (Davien II). Because it manufactured a majority of the military ships used by the United Empire of Earth (UEE) during the Messer Era, the company became synonymous with the fascist regime of the time. After the fall of the Messers in SEY 2792, Aegis Dynamics faced massive public backlash; losing its military contracts, suffering massive layoffs and internal restructuring. Relegated to producing parts, the company avoided bankruptcy when civilian sales jumped on the redesigned Retaliator bomber. Today, the company is a major manufacturer of both civilian and military crafts.",
+        "industry": "Spacecraft manufacture",
+        "founded": "SEY 2532",
+        "headquarters": "Cestulus (Davien II)",
+        "products": "Military spacecraft, personal spacecraft, capital spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/449f1583-b061-485d-9dfe-33ba94ba13ee"
+      },
+      {
+        "id": 2,
+        "name": "Anvil Aerospace",
+        "description": "Anvil Aerospace is a spacecraft manufacturing corporation headquartered on Terra (Terra III). Founded in SEY 2772 by spacecraft designer J. Harris Arnnold, it produces both military and civilian crafts. Anvil's earliest ship, the Osprey, was directly inspired by the work of the renowned ship designer Leonard Casse, who perished in a mid-air collision in SEY 2615. Casse's signature curves and circles are incorporated into the silhouettes of most Anvil ships. The F7 Hornet and the F8 Lightning are among the Anvil spacecraft currently produced for all branches of the United Empire of Earth (UEE) military.",
+        "industry": "Spacecraft manufacture, vehicle manufacture",
+        "founded": "SEY 2772",
+        "headquarters": "Terra (Terra III)",
+        "products": "Personal spacecraft, military spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/b46ae51c-d339-4126-b1e5-1921bb66609e"
+      },
+      {
+        "id": 3,
+        "name": "Argo Astronautics",
+        "description": "Argo Astronautics is an industrial design and manufacturing concern located in the United Empire of Earth (UEE). Best known for their Multi-Purpose Utility Vehicle (MPUV) line of spacecraft, the company got its start designing terrestrial mag-lev train cars and has, over several centuries, become primarily associated with industrial spacecraft.",
+        "industry": "Spacecraft manufacture",
+        "founded": "SEY 2243",
+        "headquarters": "Mars (Sol IV)",
+        "products": "Industrial spacecraft, passenger transportation spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/3612fcab-844b-4821-b34c-a27ef56ed85a"
+      },
+      {
+        "id": 4,
+        "name": "Consolidated Outland",
+        "description": "Consolidated Outland is a Human spacecraft development and manufacturing company based on Rytif (Bremen II). The company was founded by trillionaire Silas Koerner in an express effort to disrupt modern spacecraft manufacturing and design conventions. Its first spacecraft, the Mustang, is a low-cost/high-utility ship design of Koerner's own imagining. Koerner followed the successful launch with a different effort to produce a modular colonization ship, the Pioneer, launched in late SEY 2947. All aspects of ship production, from initial design to final specs, are overseen by Koerner.",
+        "industry": "Spacecraft manufacture",
+        "founded": "?",
+        "headquarters": "Rytif (Bremen II)",
+        "products": "Spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/36a17b33-dcb6-471f-9730-aa86a8ec659e"
+      },
+      {
+        "id": 5,
+        "name": "Crusader Industries",
+        "description": "Crusader Industries is a spacecraft and spacecraft component manufacturer located in the United Empire of Earth (UEE). One of four corporations in the UEE to own a planet, Crusader Industries designs and constructs its spacecraft in the upper atmosphere of Crusader (Stanton II), while the corporation and its employee-inhabitants reside on a latticework of floating colony platforms. A producer of large commercial vessels, among its more popular products is the Genesisstarliner, a luxury transport operated by civilian passenger lines across the galaxy. Crusader also produces a number of military support ships, including the M2 Hercules military transport and the Mercury blockade runner.",
+        "industry": "Spacecraft manufacture, spacecraft components",
+        "founded": "SEY 2799",
+        "headquarters": "Crusader (Stanton II)",
+        "products": "Passenger spacecraft, cargo spacecraft, spacecraft components",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/c5ed3add-3ff0-498e-9a7e-da34cc06c06f"
+      },
+      {
+        "id": 6,
+        "name": "Drake Interplanetary",
+        "description": "Drake Interplanetary is a spacecraft manufacturer headquartered on Borea (Magnus II). The fifth largest spacecraft producer in United Empire of Earth (UEE), Drake was founded in SEY 2845 by Jan Dredge to produce the Cutlass medium fighter for militia use. Drake has cultivated its image since then to appeal to those seeking less conventional designs. Spacecraft produced by Drake include the Cutlass line, the Caterpillar freighter, the Dragonfly ultralight, the Buccaneer fighter, the Herald information runner and the Vulture salvage ship.",
+        "industry": "Spacecraft manufacture, vehicle manufacture",
+        "founded": "SEY 2845",
+        "headquarters": "Borea (Magnus II)",
+        "products": "Spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+      },
+      {
+        "id": 7,
+        "name": "Esperia",
+        "description": "Esperia is a Human spacecraft manufacturer that adapts, reproduces, and sells existing spacecraft designs. The company was founded in 2873 by Jovi and Theo Ingstrom, brothers interested in preserving spacecraft-building history. Esperia's current lineup of spacecraft reproductions includes copies of the Vanduul Blade, Glaive, and Scythe and an updated model of the TevarinProwler dropship. The United Empire of Earth Navy (UEEN) makes use of Esperia's replica spacecraft for testing and for aggressor training their combat pilots.",
+        "industry": "Spacecraft manufacture, weapons manufacture",
+        "founded": "SEY 2873",
+        "headquarters": "erra (Terra III)",
+        "products": "Spacecraft, spacecraft weapons",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/f3d12e41-6a2a-4cb2-910a-92dd8e1f6917"
+      },
+      {
+        "id": 8,
+        "name": "Kruger Intergalactic",
+        "description": "Kruger Intergalactic is a Human spacecraft, weapons, and spacecraft component manufacturer first founded on Borea (Magnus II). They started in 2558 as a custom spacecraft and weapons component maker, providing parts to such clients as Roberts Space Industries and Behring. Operations expanded to weapons manufacture as the company grew. Kruger debuted their first spacecraft after partnering with Roberts Space Industries to provide a small, short-range vessel to be packaged with their Constellation line of spacecraft. They are headquartered on Cascom (Castra II).",
+        "industry": "Spacecraft manufacture, spacecraft components, weapon components",
+        "founded": "SEY 2558",
+        "headquarters": "Cascom (Castra II)",
+        "products": "Spacecraft, weapon components, spacecraft components",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/09f74737-845f-48ae-848d-4d669a9eccac"
+      },
+      {
+        "id": 9,
+        "name": "MISC (Musashi Industrial & Starflight Concern)",
+        "description": "Musashi Industrial and Starflight Concern (MISC) is a spacecraft manufacturer headquartered in Fujin City on Saisei (Centauri III). Founded in SEY 2805 after a merger between Hato Electronics Corporation and the Musashi Lifestyle Design Unit spinoff of Acorn Limited, MISC primarily produces transport and industrial utility spacecraft, such as the Freelancer and the Starfarer, but has also been expanding into the racing market with the Razor. MISC was one of the first corporations in the United Empire of Earth (UEE) to sustain a tech-trade partnership with the Xi'an.",
+        "industry": "Spacecraft manufacture",
+        "founded": "SEY 2805",
+        "headquarters": "Saisei (Centauri III)",
+        "products": "Spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/2ce19a43-1fd0-476c-a13f-346b4f16a361"
+      },
+      {
+        "id": 10,
+        "name": "Origin Jumpworks",
+        "description": "Origin Jumpworks is a personal luxury spacecraft manufacturer based on Terra (Terra III), United Empire of Earth (UEE). The move to Terra is recent; until SEY 2913, the company was located on Earth (Sol III), and had a policy only to use materials created in the Sol System to manufacture its 600 line of ships. Since the move, it has changed its outsourcing policy to accept components from across the UEE. The 300i and 890 Jump are among its bestselling designs.",
+        "industry": "Spacecraft manufacture",
+        "founded": "SEY 2747",
+        "headquarters": "Terra (Terra III)",
+        "products": "Personal spacecraft, luxury spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/ebeeab2a-a9cb-46bc-aefa-6db0fd6016d7"
+      },
+      {
+        "id": 11,
+        "name": "(RSI) Roberts Space Industries",
+        "description": "Roberts Space Industries (RSI), founded in the early 21st century SEY, is one of the oldest and most influential space technology companies in the United Empire of Earth (UEE). Spacecraft, spacecraft components, and terraforming technology make up the bulk of their products. In 2075, RSI created the quantum core engine, and in 2113, the company released the earliest terraforming machinery utilized by Humans. RSI entered a period of decline during the Messer Era (2546 - 2792), when their military contracts were terminated in favor of Aegis Dynamics, and further shrank 2757, when Ulysses Messer X publicly blamed the company for the death of Anthony Tanaka. It wasn't until the end of the Messer Era that RSI's military contracts were reinstated. Today, their Bengal line of carrier ships and Pegasus line of escort carriers are utilized by the United Empire of Earth Navy (UEEN)",
+        "industry": "Spacecraft, spacecraft components, vehicles, terraforming, armor",
+        "founded": "SEY 2038",
+        "headquarters": "Earth (Sol III)",
+        "products": "Spacecraft, spacecraft components, vehicles, terraforming equipment, armor",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/fb043453-1385-4ed0-b299-6aee53c2fe13"
+      },
+      {
+        "id": 12,
+        "name": "Mirai",
+        "description": "Mirai is a subsidiary of Musashi Industrial and Starflight Concern (MISC) that develops and manufactures high-performance spacecraft. In 2833, then-CEO Kori Desmon created a specialized team within MISC to help it expand its portfolio beyond the industrial craft that it was known for. The team's first creation, the Daedalus, went on to compete in the Murray Cup and placed third in the 2853 race. In 2910, MISC's groundbreaking agreement with the Xi'an Empire granted the company access to new technology, leading the team to design the Razor. The ship's success resulted in MISC branching the experimental team into its own division, which they named Mirai. The Fury fighter, developed with a mixture of Human and Xi'an technology, was the brand's market debut.",
+        "industry": "Spacecraft manufacture",
+        "founded": "?",
+        "headquarters": "Saisei (Centauri III)",
+        "products": "Spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/ca7508f7-9c2e-443d-8f57-d9826261b214"
+      },
+      {
+        "id": 13,
+        "name": "Gatac Manufacture",
+        "description": "Gatac Manufacture (Ao't.o'a'Ng.at'ak) is a commercial and industrial spacecraft manufacturer located on Tethle'a (Hyoton II). The company has a reputation in the Xi'an Empire (SaoXy'an) for producing cutting-edge and reliable cargo ships. After the SEY 2947 Human-Xi'an Trade Initiative (HuXa) went into effect, the company began funding research to create spacecraft adapted to the needs of both Xi'an and Humans. It released its first Xi'an-Human ship in 2951.",
+        "industry": "Spacecraft manufacture, vehicle manufacture",
+        "founded": "MXY I.0 (SEY 19668 BCE)",
+        "headquarters": "Tethle'a (Hyoton II)",
+        "products": "Industrial spacecraft, industrial vehicles",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/20b34777-0682-46f2-afb9-3d8f6bfd88ce"
+      },
+      {
+        "id": 14,
+        "name": "Aopoa",
+        "description": "Aopoa is a Xi'an House and spacecraft manufacturer. They hold a monopoly granted by the Xi'an government to exclusively manufacture light craft, such as the Khartu-al (Kal'tuāl) and the San'tok.yāi. One of a growing number of Xi'an corporations that market their products to Humans, Aopoa has sponsored multiple marketing events highlighting the exchange between Human and Xi'an cultures. In SEY 2910, they partnered with Musashi Industrial and Starflight Concern (MISC) to market their products to Humans. Their logo incorporates the crest of the Imperial House Kr.ē",
+        "industry": "Spacecraft manufacture, vehicle manufacture",
+        "founded": "?",
+        "headquarters": "Ka'ua (Hyoton IV)",
+        "products": "Personal spacecraft, military spacecraft",
+        "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/90ce09da-d341-4c06-8973-c051819e33ed"
+      }
+    ]    
+}

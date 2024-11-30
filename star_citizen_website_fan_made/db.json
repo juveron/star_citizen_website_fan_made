@@ -1,0 +1,97 @@
+{
+    "ships": [
+        {
+            "id": 1,
+            "name": "Cutlass Black",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Medium Fighter",
+            "cargo_capacity": 46,
+            "crew": 3,
+            "speed": 250,
+            "description": "A versatile ship designed for combat, cargo, and general utility.",
+            "image_url": "https://starcitizen.tools/images/3/3d/Cutlass_Black_Front.png"
+          },
+          {
+            "id": 2,
+            "name": "Caterpillar",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Heavy Cargo",
+            "cargo_capacity": 576,
+            "crew": 5,
+            "speed": 210,
+            "description": "A modular cargo ship designed for heavy freight transport.",
+            "image_url": "https://starcitizen.tools/images/6/66/Drake_Caterpillar_Front.png"
+          },
+          {
+            "id": 3,
+            "name": "Buccaneer",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Light Fighter",
+            "cargo_capacity": 0,
+            "crew": 1,
+            "speed": 260,
+            "description": "A nimble, powerful fighter for agile combat engagements.",
+            "image_url": "https://starcitizen.tools/images/e/e1/Buccaneer_Front.png"
+          },
+          {
+            "id": 4,
+            "name": "Herald",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Data Runner",
+            "cargo_capacity": 0,
+            "crew": 1,
+            "speed": 270,
+            "description": "A ship designed for high-speed transport of sensitive data.",
+            "image_url": "https://starcitizen.tools/images/4/41/Herald_Front.png"
+          },
+          {
+            "id": 5,
+            "name": "Vulture",
+            "manufacturer": "Drake Interplanetary",
+            "class": "Light Salvage",
+            "cargo_capacity": 12,
+            "crew": 1,
+            "speed": 240,
+            "description": "A compact ship built for personal salvaging operations.",
+            "image_url": "https://starcitizen.tools/images/c/cf/Drake_Vulture_1.png"
+          }
+    ],
+    "manufacturers": [
+        {
+            "id": 1,
+            "name": "Drake Interplanetary",
+            "description": "Known for affordable and practical ships designed for general utility and combat.",
+            "specialization": "Cargo and light combat",
+            "logo_url": "https://starcitizen.tools/images/7/7f/Drake_Logo.png"
+        },
+        {
+            "id": 2,
+            "name": "Anvil Aerospace",
+            "description": "Manufacturers of military-grade ships specializing in combat and exploration.",
+            "specialization": "Fighters and exploration",
+            "logo_url": "https://starcitizen.tools/images/4/49/Anvil_Aerospace_Logo.png"
+        },
+        {
+            "id": 3,
+            "name": "Aegis Dynamics",
+            "description": "Specializes in high-performance military and industrial ships.",
+            "specialization": "Military and industrial",
+            "logo_url": "https://starcitizen.tools/images/5/50/Aegis_Logo.png"
+        },
+        {
+            "id": 4,
+            "name": "Musashi Industrial and Starflight Concern (MISC)",
+            "description": "Focused on cargo and utility ships, with a touch of Xi'an technology.",
+            "specialization": "Cargo and refueling",
+            "logo_url": "https://starcitizen.tools/images/a/af/MISC_Logo.png"
+        },
+        {
+            "id": 5,
+            "name": "Origin Jumpworks",
+            "description": "Luxury and style, known for high-end ships designed for comfort and speed.",
+            "specialization": "Luxury and speed",
+            "logo_url": "https://starcitizen.tools/images/1/15/Origin_Logo.png"
+        }
+    ]
+}
+  

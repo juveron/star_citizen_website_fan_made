@@ -1,6 +1,6 @@
 # Star Citizen fan made website
 
-Hello, this is fan made website to train my new knowledge in Angular
+Hello, this is fan made website to test my new knowledge in Angular
 
 # Disclaimer
 

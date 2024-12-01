@@ -4,7 +4,7 @@ Hello, this is fan made website to test my new knowledge in Angular
 
 # Disclaimer
 
-SCG hasn't provided an api to retrieve data such as ships for personal use and the various api created by the community haven't convinced me yet, so I created my own .json and hosted a server locally.
+CIG hasn't provided an api to retrieve data such as ships for personal use and the various api created by the community haven't convinced me yet, so I created my own .json and hosted a server locally.
 
 the `dashboard` is still in work progress
 

@@ -29,14 +29,17 @@ export class ManufacturerDetailComponent implements OnInit {
   ngOnInit(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
 
-    this.manufacturerService.getManufacturerById(id).subscribe(
-      (data) => {
+    this.manufacturerService.getManufacturerById(id).subscribe({
+      next: (data) => {
         this.manufacturer = data;
         this.isDataLoaded = true;
       },
-      (error) => {
-        console.error('Error when trying to get data :', error);
+      error: (err) => {
+        console.error('Error when trying to get manufacturer:', err);
+      },
+      complete: () => {
+        console.log('Manufacturer data loading complete.');
       }
-    );
+    });
   }
 }

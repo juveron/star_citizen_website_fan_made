@@ -16,5 +16,5 @@ export class ManufacturerService {
 
   getManufacturerById(id: number): Observable<Manufacturer> {
     return this.http.get<Manufacturer>(`${this.manufacturersUrl}/${id}`);
-  }
+  }  
 }

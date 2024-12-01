@@ -7,9 +7,10 @@
             "class": "Medium Fighter",
             "cargo_capacity": 46,
             "crew": 3,
+            "role": "Freight (medium freight), fighter (medium fighter)",
             "speed": 250,
-            "description": "A versatile ship designed for combat, cargo, and general utility.",
-            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+            "description": "The Cutlass Black is a space superiority fighter manufactured by Drake Interplanetary. It was initially developed in the mid-29th century SEY as a bid for a military contract with the United Empire of Earth (UEE) Navy. When the bid failed, Drake opted to market the Cutlass Black as a low-cost, easy-to-repair spacecraft to civilians. Other Cutlass variants include the Cutlass Blue for law enforcement and bounty hunters and the Cutlass Red medical transport.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/fa9d4436-bde2-4076-a0b4-aaa9cf8f99b4"
           },
           {
             "id": 2,
@@ -18,9 +19,10 @@
             "class": "Heavy Cargo",
             "cargo_capacity": 576,
             "crew": 5,
+            "role": "Transport, freight",
             "speed": 210,
-            "description": "A modular cargo ship designed for heavy freight transport.",
-            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+            "description": "The Caterpillar is a multi-crew utility spacecraft and armored freighter manufactured by Drake Interplanetary. Designed for storage, it can be adapted to suit the needs of multiple types of cargo. It can also can be used for combat roles, such as a raiding command center or a q-ship. Drake sells the Caterpillar as the flagship of its spacecraft system, which includes the Cutlass, Dragonfly, and Buccaneer.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/ddea21bd-fb52-4c93-8a16-a8b2470d6947"
           },
           {
             "id": 3,
@@ -29,31 +31,22 @@
             "class": "Light Fighter",
             "cargo_capacity": 0,
             "crew": 1,
+            "role": "Interdiction, fighter (medium fighter)",
             "speed": 260,
-            "description": "A nimble, powerful fighter for agile combat engagements.",
-            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+            "description": "The Buccaneer is a civilian medium fighter sold by Drake Interplanetary. It was initially designed as an affordable option for frontier militia squadrons conscious of limited repair and maintenance opportunities. The Buccaneer is offered alongside Drake's Cutlass/Caterpillar system and has become a popular design among explorers and pirates.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/26cd1834-e5bf-4d87-9b05-dba53d8e6afd"
           },
           {
             "id": 4,
-            "name": "Herald",
-            "manufacturer": "Drake Interplanetary",
-            "class": "Data Runner",
-            "cargo_capacity": 0,
-            "crew": 1,
-            "speed": 270,
-            "description": "A ship designed for high-speed transport of sensitive data.",
-            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
-          },
-          {
-            "id": 5,
             "name": "Vulture",
             "manufacturer": "Drake Interplanetary",
             "class": "Light Salvage",
             "cargo_capacity": 12,
             "crew": 1,
+            "role": "salvage(light salvage)",
             "speed": 240,
-            "description": "A compact ship built for personal salvaging operations.",
-            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/8f52bcf4-0e6c-42b0-9d74-981c5262c2f3"
+            "description": "The Vulture is a single-pilot salvage spacecraft manufactured by Drake Interplanetary and first released in 2938. It was designed for long-term solo operations in unclaimed or otherwise dangerous locations. Each Vulture is built with a cargo bay for the storage of harvested materials, along with scraper beams for efficient salvage and an industrial-grade tractor rig.",
+            "logo_url": "https://cig-galactapedia-prod.s3.amazonaws.com/upload/cd09fb5a-9b91-4e28-b1cd-a1e2b26a9ab7"
           }
     ],
     "manufacturers": [

@@ -4,5 +4,5 @@ import { ShipDetailComponent } from './ship-detail/ship-detail.component';
 
 export const shipsRoutes: Routes = [
   { path: '', component: ShipListComponent },
-  { path: ':id', component: ShipDetailComponent }
+  { path: ':id/:name', component: ShipDetailComponent }
 ];

@@ -5,7 +5,8 @@ export interface Ship {
     class: string;
     cargo_capacity: number;
     crew: number;
+    role: string;
     speed: number;
     description: string;
-    image_url: string; 
+    logo_url: string; 
 }

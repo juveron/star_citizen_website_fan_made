@@ -1,1 +1,46 @@
-<p>ship-detail works!</p>
+<section class="ship-detail">
+    <div class="content-wrapper">
+      <div class="ship-description">
+        <h1>{{ ship.name }}</h1>
+        <p>{{ ship.description }}</p>
+      </div>
+  
+      <div class="ship-info">
+        <div class="info-container">
+          <img [src]="ship.logo_url" [alt]="ship.name" class="manufacturer-logo">
+          <div class="info-table">
+            <h2>{{ ship.name }}</h2>
+            <div class="info-row">
+              <p class="info-key">Manufacturer:</p>
+              <p class="info-value">{{ ship.manufacturer }}</p>
+            </div>
+            <div class="info-row">
+              <p class="info-key">Class:</p>
+              <p class="info-value">{{ ship.class }}</p>
+            </div>
+            <div class="info-row">
+              <p class="info-key">Cargo Capacity:</p>
+              <p class="info-value">{{ ship.cargo_capacity }}</p>
+            </div>
+            <div class="info-row">
+              <p class="info-key">Max crew:</p>
+              <p class="info-value">{{ ship.crew }}</p>
+            </div>
+            <div class="info-row">
+                <p class="info-key">Role:</p>
+                <p class="info-value">{{ ship.role }}</p>
+            </div>
+            <div class="info-row">
+                <p class="info-key">Speed:</p>
+                <p class="info-value">{{ ship.speed }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    
+    <section *ngIf="!isDataLoaded" class="loading">
+      <p>Loading ship details...</p>
+    </section>

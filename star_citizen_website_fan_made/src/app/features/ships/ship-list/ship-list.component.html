@@ -1,1 +1,15 @@
-<p>ship-list works in progress</p>
+<section class="ship-list">
+    <h2>Ships</h2>
+    <div class="grid-container">
+      <div *ngFor="let ship of ships" class="ship-card">
+        <a [routerLink]="[ship.id, ship.name]" class="ship-card-link">
+        <div class="image-container">
+            <img [src]="ship.logo_url" [alt]="ship.name" class="ship-logo">
+        </div>
+        <div class="card-content">
+            <h3>{{ ship.name }}</h3>
+        </div>
+        </a>
+      </div>
+    </div>
+</section>

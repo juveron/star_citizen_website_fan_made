@@ -1,59 +1,27 @@
-# StarCitizenWebsiteFanMade
+# Star Citizen fan made website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Hello, this is fan made website to train my new knowledge in Angular
 
-## Development server
+# Disclaimer
 
-To start a local development server, run:
+SCG hasn't provided an api to retrieve data such as ships for personal use and the various api created by the community haven't convinced me yet, so I created my own .json and hosted a server locally.
 
-```bash
-ng serve
-```
+the `dashboard` is still in work progress
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+You are free to use my work but if you can credit me that will be great
 
-## Code scaffolding
+## How to test
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Do `ng serve` and `json-server --watch json-server/db.json --port 3000` 
 
-```bash
-ng generate component component-name
-```
+## Feature
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+You can click on the button in nav bar to display ships or manufacturers
 
-```bash
-ng generate --help
-```
+When you are on the ships page, you can click on the ship of your choice and the details will be displayed.
 
-## Building
+## Images exemple
 
-To build the project run:
+![Ships Page](markdown-images/ships_page.png)
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Ship details](markdown-images/ship_details.png)

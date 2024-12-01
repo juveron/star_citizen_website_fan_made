@@ -22,6 +22,6 @@ When you are on the ships page, you can click on the ship of your choice and the
 
 ## Images exemple
 
-![Ships Page](markdown-images/ships_page.png)
+![Ships Page](star_citizen_website_fan_made/markdown-images/ships_page.png)
 
-![Ship details](markdown-images/ship_details.png)
+![Ship details](star_citizen_website_fan_made/markdown-images/ship_details.png)
